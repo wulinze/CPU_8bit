@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+entity regset is
+port (data_A : in std_logic_vector(7 downto 0);
+		data_B : in std_logic_vector(7 downto 0);
+		data_C : in std_logic_vector(7 downto 0);
+		data_D : in std_logic_vector(7 downto 0);
+		data_out : out std_logic_vector(7 downto 0);
+		W,R : in std_logic;
+		crl : in std_logic_vector(1 downto 0));
+	

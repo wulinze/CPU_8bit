@@ -1,0 +1,7 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+entity crl is
+port (MOV,MVI,MVA,JMP,SUB,SBB,ADD,ADC,SHL,SHR,AND_IN,OR_IN,XOR_IN,NOT_IN : in std_logic;
+		EIR,EDR,EALU,EMAR,EPC,ESP,
